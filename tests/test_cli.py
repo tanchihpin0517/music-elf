@@ -3,7 +3,7 @@
 import pytest
 from typer.testing import CliRunner
 
-from elf.cli import app
+from music_elf.cli import app
 
 runner = CliRunner()
 
@@ -33,7 +33,7 @@ def test_placeholder_commands(operation: str, component: str) -> None:
 
     assert result.exit_code == 1
     assert result.stdout == ""
-    assert result.stderr == f"Not implemented: elf {operation} {component}\n"
+    assert result.stderr == f"Not implemented: music-elf {operation} {component}\n"
 
 
 @pytest.mark.parametrize(

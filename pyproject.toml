@@ -1,7 +1,7 @@
 [project]
-name = "elf"
+name = "music-elf"
 version = "0.1.0"
-description = "Command-line interface for ELF training and inference"
+description = "Command-line interface for Music ELF training and inference"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -9,7 +9,7 @@ dependencies = [
 ]
 
 [project.scripts]
-elf = "elf.cli:app"
+music-elf = "music_elf.cli:app"
 
 [dependency-groups]
 dev = [

@@ -1,4 +1,4 @@
-"""Command-line interface for ELF."""
+"""Command-line interface for Music ELF."""
 
 from typing import NoReturn
 
@@ -14,7 +14,7 @@ app.add_typer(infer_app, name="infer")
 
 def _not_implemented(operation: str, component: str) -> NoReturn:
     """Report a placeholder command and exit unsuccessfully."""
-    typer.echo(f"Not implemented: elf {operation} {component}", err=True)
+    typer.echo(f"Not implemented: music-elf {operation} {component}", err=True)
     raise typer.Exit(code=1)
 
 

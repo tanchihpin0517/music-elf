@@ -1,1 +1,0 @@
-"""ELF command-line package."""

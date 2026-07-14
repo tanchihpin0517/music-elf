@@ -1,4 +1,4 @@
-# ELF
+# Music ELF
 
 An empty command-line scaffold for ELF model training and inference.
 
@@ -14,7 +14,7 @@ uv sync
 Inspect the CLI:
 
 ```console
-uv run elf --help
+uv run music-elf --help
 ```
 
 ## Commands
@@ -22,12 +22,12 @@ uv run elf --help
 The six command combinations are:
 
 ```console
-uv run elf train elf
-uv run elf train encoder
-uv run elf train lm
-uv run elf infer elf
-uv run elf infer encoder
-uv run elf infer lm
+uv run music-elf train elf
+uv run music-elf train encoder
+uv run music-elf train lm
+uv run music-elf infer elf
+uv run music-elf infer encoder
+uv run music-elf infer lm
 ```
 
 Each command is currently a placeholder. It reports that it is not implemented
