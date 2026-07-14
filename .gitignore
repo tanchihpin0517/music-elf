@@ -1,10 +1,8 @@
-outputs/
-wandb/
+# Local tooling and reference material.
+/.agents/
+/.codegraph/
+/.codex/
 /repo/
-/data/
-.codegraph/
-.plans/
-.DS_Store
 
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
